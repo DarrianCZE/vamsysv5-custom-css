@@ -1,6 +1,6 @@
 /*
 SW Virtual CSS Config for vAMSYS v5
-Version: 1.16
+Version: 1.17
 Author: Jan Podlipsky - jan.podlipsky@sw-virtual.eu
 */
 
@@ -503,6 +503,14 @@ span {
 	border-color: rgb(var(--secondary-rgb)) !important;
 	color: white !important;
 }
+.tiptap.ProseMirror p {
+	color: rgb(var(--primary-rgb)) !important;
+	font-weight: 500 !important;
+}
+.tiptap.ProseMirror ul {
+	color: rgb(var(--primary-rgb)) !important;
+	font-weight: 500 !important;
+}
 
 /* Dark Mode section */
 :root:is(.dark) {
@@ -554,10 +562,6 @@ span {
 	color: rgb(156 163 175 / var(--tw-text-opacity)) !important;
 }
 
-.card:is(.dark *) {
-    background-color: rgba(var(--gray-800)) !important;
-}
-
 .dark\:bg-gray-800:is(.dark *) {
 	background-color: rgba(49, 58, 70) !important;
 	color: var(--gray-800) !important;
@@ -579,7 +583,7 @@ span {
 }
 
 .alert.alert-success:is(.dark *) {
-    color: rgba(var(--primary)) !important;
+    color: rgba(var(--primary), 0.9) !important;
 	background-color: rgba(var(--success),0.9) !important;
 }
 
@@ -644,7 +648,7 @@ span {
 }
 
 .btn.btn-sm:is(.dark *) {
-	color: rgba(var(--primary)) !important;
+	color: rgba(var(--primary), 0.9) !important;
 	background: rgb(var(--secondary-rgb),0.9) !important;
 	border-color: rgba(var(--secondary-rgb), 0.9) !important;
 }
@@ -655,7 +659,7 @@ span {
 
 .hover\:text-white:hover:is(.dark *) {
 	background: rgb(var(--secondary-rgb), 0.8) !important;
-	color: rgba(var(--primary)) !important;
+	color: rgba(var(--primary), 0.9) !important;
 	border-color: rgba(var(--secondary-rgb), 0.8) !important;
 }
 
@@ -716,7 +720,7 @@ span {
 }
 .choices__group:is(.dark *) {
 	font-weight: 650 !important;
-	color: rgba(var(--primary)) !important;
+	color: rgba(var(--primary), 0.9) !important;
 }
 
 .focus\:ring-0:focus:is(.dark *) {
@@ -1096,5 +1100,23 @@ span {
 .swap-btn:hover:is(.dark *) {
 	background: rgb(var(--secondary-rgb),0.7)!important;
 	border-color: rgb(var(--secondary-rgb),0.7) !important;
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
+}
+.tiptap.ProseMirror p:is(.dark *) {
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	font-weight: 500 !important;
+}
+.tiptap.ProseMirror ul:is(.dark *) {
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	font-weight: 500 !important;
+}
+
+.dark\:text-success-400:is(.dark *) {
+	color: rgb(var(--secondary-rgb),0.9) !important;
+}
+
+.dark\:text-success-300:is(.dark *) {
+	background: rgb(var(--secondary-rgb),0.7)!important;
+	border-color: rgb(var(--secondary-rgb),0.7) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
