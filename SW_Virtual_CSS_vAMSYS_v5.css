@@ -829,7 +829,7 @@ span {
 }
 
 .card.card-info:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 	background-color: rgb(var(--secondary-rgb),0.9) !important;
 	border-color: rgb(var(--secondary-rgb),0.9) !important;
 	--tw-ring-color: rgb(var(--secondary-rgb),0.9) !important;
@@ -865,95 +865,95 @@ span {
 }
 
 .sidebar-header:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 	background: rgb(var(--secondary-rgb), 0.1) !important;
 	background-color: rgb(var(--secondary-rgb), 0.1) !important;
 	border-color: rgb(var(--secondary-rgb), 0.1) !important;
 }
 
 .card-codes:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .card-name:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9)!important;
+	color: rgb(var(--primary-darkmode-color), 0.8)!important;
 }
 
 .card-action:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .card-placeholder-title:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9)!important;
+	color: rgb(var(--primary-darkmode-color), 0.8)!important;
 }
 .card-placeholder-text:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 .airport-card-placeholder-icon:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .airport-btn-dispatch:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 	background: rgb(var(--secondary-rgb),0.9) !important;
 	border-color: rgb(var(--secondary-rgb),0.9) !important;
 }
 
 .airport-btn-dispatch:hover:is(.dark *) {
 	background-color: rgb(var(--secondary-rgb),0.7) !important;
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 	border-color: rgb(var(--secondary-rgb),0.7) !important;
 }
 
 .action-btn-reset:is(.dark *) {
 	background-color: rgb(var(--secondary-rgb),0.9)!important;
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .action-btn-reset:hover:is(.dark *) {
 	background-color: rgb(var(--secondary-rgb),0.7) !important;
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 	border-color: rgb(var(--secondary-rgb),0.7)!important;
 }
 
 .airport-btn-info:is(.dark *) {
 	background-color: rgb(var(--secondary-rgb),0.9) !important;
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .airport-btn-info:hover:is(.dark *) {
 	background-color: rgb(var(--secondary-rgb),0.7)!important;
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 	border-color: rgb(var(--secondary-rgb),0.7) !important;
 }
 
 .weather-control-text:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .range-rings-label:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 .range-rings-icon:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
  
 .weather-toggle-active:is(.dark *) {
 	background: rgb(var(--secondary-rgb),0.9) !important;
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 	border-color: rgb(var(--secondary-rgb),0.9) !important;
 }
 
 .route-card-label:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .route-card-value:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .route-card-icon:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .dispatch-btn:is(.dark *) {
@@ -969,77 +969,77 @@ span {
 .airport-btn-jumpseat:is(.dark *) {
 	background: rgb(var(--secondary-rgb),0.9) !important;
 	border-color: rgb(var(--secondary-rgb),0.9) !important;
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .airport-btn-jumpseat:hover:is(.dark *) {
 	background: rgb(var(--secondary-rgb),0.7) !important;
 	border-color: rgb(var(--secondary-rgb),0.7) !important;
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .filter-button:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .filter-panel-header:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 	background: rgb(var(--secondary-rgb), 0.1) !important;
 	background-color: rgb(var(--secondary-rgb), 0.1) !important;
 	border-color: rgb(var(--secondary-rgb), 0.1) !important;
 }
 
 .combobox-item:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .combobox-item:hover:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 	background: rgb(var(--secondary-rgb),0.9)!important;
 }
 
 .mode-toggle-btn:is(.dark *) {
 	background: rgb(var(--secondary-rgb),0.9)!important;
 	border-color: rgb(var(--secondary-rgb),0.9) !important;
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .mode-toggle-btn:hover:is(.dark *) {
 	background: rgb(var(--secondary-rgb),0.7) !important;
 	border-color: rgb(var(--secondary-rgb),0.7) !important;
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .helper-text:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .card-badge-current-location:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .card-badge-arrival:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .flight-card-callsign:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .flight-card-pilot:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .flight-card-badge:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .flight-card-airport:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .weather-control-detail:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .flights-search-input:is(.dark *) {
@@ -1047,43 +1047,43 @@ span {
 }
 
 .time-label:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .time-value:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .progress-phase:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .progress-aircraft:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .progress-info-item:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .route-card-header-value:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .progress-network:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .aircraft-attribution-label:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .aircraft-attribution-text:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .card-badge-departure:is(.dark *) {
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .flight-progress-bar-fill:is(.dark *) {
@@ -1094,7 +1094,7 @@ span {
 .swap-btn:is(.dark *) {
 	background: rgb(var(--secondary-rgb),0.9)!important;
 	border-color: rgb(var(--secondary-rgb),0.9) !important;
-	color: rgb(var(--primary-darkmode-color), 0.9) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
 
 .swap-btn:hover:is(.dark *) {
@@ -1118,5 +1118,21 @@ span {
 .dark\:text-success-300:is(.dark *) {
 	background: rgb(var(--secondary-rgb),0.7)!important;
 	border-color: rgb(var(--secondary-rgb),0.7) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
+}
+.bg-transparent:is(.dark *) {
+	background: rgb(var(--secondary-rgb),0.7)!important;
+	border-color: rgb(var(--secondary-rgb),0.7) !important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
+}
+.dark\:hover\:bg-gray-700:hover:is(.dark *) {
+	background-color: rgb(var(--secondary-rgb),0.7)!important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	border-color: rgb(var(--secondary-rgb),0.7) !important;
+}
+
+.text-white:is(.dark *) {
+	background: rgb(var(--secondary-rgb),0.9)!important;
+	border-color: rgb(var(--secondary-rgb),0.9) !important;
 	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
