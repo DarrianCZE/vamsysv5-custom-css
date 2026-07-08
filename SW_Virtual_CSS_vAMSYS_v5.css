@@ -1,6 +1,6 @@
 /*
 SW Virtual CSS Config for vAMSYS v5
-Version: 1.17
+Version: 1.18
 Author: Jan Podlipsky - jan.podlipsky@sw-virtual.eu
 */
 
@@ -732,6 +732,17 @@ span {
 	color: rgb(var(--primary-rgb)) !important;
 }
 
+.dispatch-action-preview {
+	color: white !important;
+	background: rgb(var(--primary-rgb)) !important;
+	border-color: rgb(var(--primary-rgb)) !important;
+}
+
+.dispatch-action-preview:hover {
+	color: white !important;
+	background: rgb(var(--secondary-rgb)) !important;
+	border-color: rgb(var(--secondary-rgb)) !important;
+}
 
 /* Dark Mode section */
 :root:is(.dark) {
@@ -1356,4 +1367,277 @@ span {
 	background: rgb(var(--secondary-rgb),0.9)!important;
 	border-color: rgb(var(--secondary-rgb),0.9) !important;
 	color: rgb(var(--primary-darkmode-color), 0.8) !important;
+}
+
+.dark\:bg-white\/10:is(.dark *) {
+	background: unset !important;
+}
+
+.text-zinc-500:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+}
+
+.text-zinc-400:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+}
+
+.text-zinc-800:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+}
+
+.text-zinc-600:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+}
+
+.text-zinc-700:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+}
+
+.dispatch-badge:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: rgb(var(--secondary-rgb),0.9)!important;
+	border-color: rgb(var(--secondary-rgb),0.9) !important;
+}
+
+.dispatch-action:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: rgb(var(--secondary-rgb),0.9)!important;
+	border-color: rgb(var(--secondary-rgb),0.9) !important;
+}
+
+.dispatch-action:hover:is(.dark *) {
+	background-color: rgb(var(--secondary-rgb),0.7)!important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	border-color: rgb(var(--secondary-rgb),0.7) !important;
+}
+
+.dispatch-route-info a[href]:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: rgb(var(--secondary-rgb),0.9)!important;
+	border-color: rgb(var(--secondary-rgb),0.9) !important;
+}
+
+.dispatch-route-info-times:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+}
+
+.dispatch-option-group-heading:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+}
+
+.dispatch-route-info a[href]:hover:is(.dark *) {
+    background-color: rgb(var(--secondary-rgb),0.7)!important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	border-color: rgb(var(--secondary-rgb),0.7) !important;
+}
+
+.dispatch-summary:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+}
+
+.dispatch-summary-header:is(.dark *) {
+    background-color: rgb(var(--secondary-rgb),0.7)!important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	border-color: rgb(var(--secondary-rgb),0.7) !important;
+}
+
+.dispatch-card.dispatch-summary:is(.dark *) {
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	border-color: rgb(var(--secondary-rgb),0.7) !important;
+}
+
+.dispatch-route-info-endpoint:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+}
+
+.dispatch-action.dispatch-action-manage-favourites:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-action.dispatch-action-random-aircraft:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-action.dispatch-action-fr24:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-label:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-route-info-toggle:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-section-title:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-section-icon:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-value:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-meta:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-value-quota:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-summary-fuel-row-pending:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-hint:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-section-summary:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-actions-summary:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+}
+
+.dispatch-action.dispatch-action-aircraft-picker:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-badge.dispatch-badge-callsign-status-free:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.data-\[checked\]\:bg-\[var\(--color-accent\)\][data-checked]:is(.dark *) {
+    background-color: rgb(var(--secondary-rgb),0.7)!important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	border-color: rgb(var(--secondary-rgb),0.7) !important;
+}
+
+.dispatch-action.dispatch-action-copy-route-time:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-action.dispatch-action-time-setter:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-action.dispatch-action-copy-route:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-action.dispatch-action-generate:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-badge.dispatch-badge-callsign-status-taken:is(.dark *) {
+    color: rgb(var(--danger-rgb), 0.8) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-field-unit:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+}
+
+.dispatch-badge.dispatch-badge-mzfw-exceeded:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-action.dispatch-action-missing-network:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-action.dispatch-action-preferred-network:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-action.dispatch-action-missing-copilot:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-action.dispatch-action-sync-airframes:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-action.dispatch-action-manage-profiles:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.viewBookingFieldTitle:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+}
+
+.dispatch-action-copy-atc:is(.dark *) {
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-action-preview:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	background: rgb(var(--secondary-rgb),0.9)!important;
+	border-color: rgb(var(--secondary-rgb),0.9) !important;
+}
+
+.dispatch-action-preview:hover:is(.dark *) {
+    background-color: rgb(var(--secondary-rgb),0.7)!important;
+	color: rgb(var(--primary-darkmode-color), 0.8) !important;
+	border-color: rgb(var(--secondary-rgb),0.7) !important;
 }
