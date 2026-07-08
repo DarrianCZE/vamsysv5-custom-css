@@ -507,7 +507,23 @@ span {
 	font-weight: 500 !important;
 }
 
-.dispatch-page div {
+.text-zinc-500 {
+	color: rgb(var(--primary-rgb)) !important;
+}
+
+.text-zinc-400 {
+	color: rgb(var(--primary-rgb)) !important;
+}
+
+.text-zinc-800 {
+	color: rgb(var(--primary-rgb)) !important;
+}
+
+.text-zinc-600 {
+	color: rgb(var(--primary-rgb)) !important;
+}
+
+.text-zinc-700 {
 	color: rgb(var(--primary-rgb)) !important;
 }
 
@@ -535,10 +551,22 @@ span {
 	border-color: rgb(var(--primary-rgb)) !important;
 }
 
+.dispatch-route-info-times {
+	color: rgb(var(--primary-rgb)) !important;
+}
+
+.dispatch-option-group-heading {
+	color: rgb(var(--primary-rgb)) !important;
+}
+
 .dispatch-route-info a[href]:hover {
 	color: white !important;
 	background: rgb(var(--secondary-rgb)) !important;
 	border-color: rgb(var(--secondary-rgb)) !important;
+}
+
+.dispatch-summary {
+	border-color: rgb(var(--primary-rgb)) !important;
 }
 
 .dispatch-summary-header {
@@ -547,27 +575,164 @@ span {
 	border-color: rgb(var(--primary-rgb)) !important;
 }
 
-.text-primary-100 {
+.dispatch-route-info-endpoint {
 	color: rgb(var(--primary-rgb)) !important;
 }
 
-.text-zinc-800 {
+.dispatch-action.dispatch-action-manage-favourites {
+	color: rgb(var(--primary-rgb)) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-action.dispatch-action-random-aircraft {
+	color: rgb(var(--primary-rgb)) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-action.dispatch-action-fr24 {
+	color: rgb(var(--primary-rgb)) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-label {
 	color: rgb(var(--primary-rgb)) !important;
 }
 
-.text-zinc-400 {
+.dispatch-route-info-toggle {
 	color: rgb(var(--primary-rgb)) !important;
 }
 
-.text-zinc-500 {
+.dispatch-section-title {
 	color: rgb(var(--primary-rgb)) !important;
 }
 
-/*.hover\:text-gray-700:hover {
-	color: rgb(255,255,255,0.9) !important;
-	background-color: rgb(var(--secondary-rgb),.7) !important;
+.dispatch-section-icon {
+	color: rgb(var(--primary-rgb)) !important;
+	background-color: rgb(var(--secondary-rgb),0.4) !important;
 }
-*/
+
+.dispatch-value {
+	color: rgb(var(--primary-rgb)) !important;
+}
+
+.dispatch-meta {
+	color: rgb(var(--primary-rgb)) !important;
+}
+
+.dispatch-value-quota {
+	color: rgb(var(--primary-rgb)) !important;
+}
+
+.dispatch-summary-fuel-row-pending {
+	color: rgb(var(--primary-rgb)) !important;
+}
+
+.dispatch-hint {
+	color: rgb(var(--primary-rgb)) !important;
+}
+
+.dispatch-section-summary {
+	color: rgb(var(--primary-rgb)) !important;
+}
+
+.dispatch-actions-summary {
+	color: rgb(var(--primary-rgb)) !important;
+}
+
+.dispatch-action.dispatch-action-aircraft-picker {
+	color: rgb(var(--primary-rgb)) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-badge.dispatch-badge-callsign-status-free {
+	color: rgb(var(--primary-rgb)) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.data-\[checked\]\:bg-\[var\(--color-accent\)\][data-checked] {
+	background-color: rgb(var(--primary-rgb)) !important;
+}
+
+.dispatch-action.dispatch-action-copy-route-time {
+	color: rgb(var(--primary-rgb)) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-action.dispatch-action-time-setter {
+	color: rgb(var(--primary-rgb)) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-action.dispatch-action-copy-route {
+	color: rgb(var(--primary-rgb)) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-action.dispatch-action-generate {
+	color: rgb(var(--primary-rgb)) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-badge.dispatch-badge-callsign-status-taken {
+	color: rgb(var(--danger-rgb)) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-field-unit {
+	color: rgb(var(--primary-rgb)) !important;
+}
+
+.dispatch-badge.dispatch-badge-mzfw-exceeded {
+	color: rgb(var(--danger-rgb)) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-action.dispatch-action-missing-network {
+	color: rgb(var(--primary-rgb)) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-action.dispatch-action-preferred-network {
+	color: rgb(var(--primary-rgb)) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-action.dispatch-action-missing-copilot {
+	color: rgb(var(--primary-rgb)) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-action.dispatch-action-sync-airframes {
+	color: rgb(var(--primary-rgb)) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.dispatch-action.dispatch-action-manage-profiles {
+	color: rgb(var(--primary-rgb)) !important;
+	background: unset !important;
+	border-color: unset !important;
+}
+
+.viewBookingFieldTitle {
+	color: rgb(var(--primary-rgb)) !important;
+}
+
+
 /* Dark Mode section */
 :root:is(.dark) {
 	--primary: var(--primary-darkmode-color) !important;
