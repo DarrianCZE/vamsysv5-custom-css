@@ -744,6 +744,18 @@ span {
 	border-color: rgb(var(--secondary-rgb)) !important;
 }
 
+.dispatch-ofp-field-label {
+	color: rgb(var(--primary-rgb)) !important;
+}
+
+.dispatch-ofp-field-value {
+	color: rgb(var(--primary-rgb)) !important;
+}
+
+.tabular-nums {
+	color: rgb(var(--primary-rgb)) !important;
+}
+
 /* Dark Mode section */
 :root:is(.dark) {
 	--primary: var(--primary-darkmode-color) !important;
@@ -1640,4 +1652,16 @@ span {
     background-color: rgb(var(--secondary-rgb),0.7)!important;
 	color: rgb(var(--primary-darkmode-color), 0.8) !important;
 	border-color: rgb(var(--secondary-rgb),0.7) !important;
+}
+
+.dispatch-ofp-field-label:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+}
+
+.dispatch-ofp-field-value:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
+}
+
+.tabular-nums:is(.dark *) {
+    color: rgb(var(--primary-darkmode-color), 0.8) !important;
 }
