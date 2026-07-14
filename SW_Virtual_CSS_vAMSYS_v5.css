@@ -1,6 +1,6 @@
 /*
 SW Virtual CSS Config for vAMSYS v5
-Version: 1.18
+Version: 1.19
 Author: Jan Podlipsky - jan.podlipsky@sw-virtual.eu
 */
 
@@ -753,6 +753,11 @@ span {
 }
 
 .tabular-nums {
+	color: rgb(var(--primary-rgb)) !important;
+}
+
+.dispatch-finder-card-vfr {
+	border-color: rgb(var(--primary-rgb)) !important;
 	color: rgb(var(--primary-rgb)) !important;
 }
 
@@ -1664,4 +1669,9 @@ span {
 
 .tabular-nums:is(.dark *) {
     color: rgb(var(--primary-darkmode-color), 0.8) !important;
+}
+
+.dispatch-finder-card-vfr:is(.dark *) {
+	border-color: rgb(var(--secondary-rgb),0.7) !important;
+	color: rgb(var(--primary-darkmode-color)) !important;
 }
